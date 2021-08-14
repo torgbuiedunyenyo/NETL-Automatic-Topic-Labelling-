@@ -21,7 +21,7 @@ import argparse
 parser = argparse.ArgumentParser()
 
 #Common Parameters
-data ="toy_data/toytopics.csv" # The file in csv format which contains the topic terms that needs a label. 
+data ="/content/drive/MyDrive/person_problem_with_problems_and_responses.csv" # The file in csv format which contains the topic terms that needs a label. 
 
 #Parameters for candidate Generation of Labels
 doc2vecmodel = "pre_trained_models/doc2vec/docvecmodel.d2v" # Path for Doc2vec Model.
